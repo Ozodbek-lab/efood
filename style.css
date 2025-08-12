@@ -1,0 +1,149 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 50px;
+    background: #fff;
+}
+
+.logo {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.logo span {
+    color: orange;
+}
+
+nav a {
+    margin: 0 15px;
+    text-decoration: none;
+    color: #333;
+}
+
+.sign-up {
+    background: orange;
+    color: white;
+    border: none;
+    padding: 8px 15px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.hero {
+    display: flex;
+    align-items: center;
+    padding: 50px;
+    background: #f9f9f9;
+}
+
+.hero-text {
+    flex: 1;
+}
+
+.hero-text h1 {
+    font-size: 36px;
+}
+
+.hero-text .highlight {
+    color: orange;
+}
+
+.primary-btn {
+    background: orange;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    margin-top: 15px;
+    cursor: pointer;
+}
+
+.hero-img img {
+    width: 300px;
+}
+
+.info {
+    display: flex;
+    align-items: center;
+    padding: 50px;
+}
+
+.info-text h2 span {
+    color: orange;
+}
+
+.secondary-btn {
+    background: orange;
+    color: white;
+    border: none;
+    padding: 8px 15px;
+    margin-top: 10px;
+}
+
+.top-food {
+    text-align: center;
+    padding: 50px;
+}
+
+.top-food h2 span {
+    color: orange;
+}
+
+.food-cards {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.card {
+    background: #fff;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+}
+
+.card img {
+    width: 100%;
+}
+
+.mobile-app {
+    text-align: center;
+    padding: 50px;
+}
+
+.mobile-app span {
+    color: orange;
+}
+
+.subscribe {
+    background: orange;
+    text-align: center;
+    padding: 30px;
+    color: white;
+}
+
+.subscribe form {
+    margin-top: 15px;
+}
+
+.subscribe input {
+    padding: 8px;
+    width: 250px;
+    border: none;
+    border-radius: 4px;
+}
+
+.subscribe button {
+    padding: 8px 15px;
+    background: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    color: orange;
+}
